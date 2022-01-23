@@ -11,3 +11,4 @@ window.addEventListener('DOMContentLoaded', () => {
   function myFunction() {
     // document.getElementById("shareTarget").innerHTML = "Some value";
   }
+

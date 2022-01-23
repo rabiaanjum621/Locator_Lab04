@@ -4,40 +4,35 @@
   "start_url": "https://goyalish.github.io/INFO-6128-Share-Target-Lab/",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#fff",
-  "theme_color": "#000",
-  "scope": "/",
+  "background_color": "#aac8d4",
+  "theme_color": "#75929D",
   "icons": [
     {
       "src": "assets/images/icon.png",
       "type": "image/png",
-      "sizes": "48x48"
-    },
-    {
-      "src": "assets/images/icon.png",
-      "type": "image/png",
-      "sizes": "96x96"
-    },
-    {
-      "src":"assets/images/icon.png",
-      "sizes": "144x144",
-      "type": "image/png"
-    },
-    {
-      "src": "assets/images/icon.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "assets/images/icon.png",
-      "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "512x512 192x192 64x64 32x32 24x24 16x16"
     },
     {
       "src": "assets/images/maskable_icon.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Open Messages",
+      "short_name": "Messages",
+      "description": "Open the app to your messages",
+      "url": "https://evanburg.github.io/pwa-boilerplate/messages",
+      "icons": [{ "src": "assets/images/messages.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Open Settings",
+      "short_name": "Settings",
+      "description": "Open the app to the settings",
+      "url": "https://evanburg.github.io/pwa-boilerplate/settings",
+      "icons": [{ "src": "assets/images/settings.png", "sizes": "192x192" }]
     }
   ],
   "share_target": {
