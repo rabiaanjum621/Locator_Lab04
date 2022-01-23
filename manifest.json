@@ -1,11 +1,12 @@
 {
   "name": "my-new-pwa",
   "short_name": "my-new-pwa",
-  "start_url": "https://evanburg.github.io/pwa-boilerplate/",
+  "start_url": "https://goyalish.github.io/INFO-6128-Share-Target-Lab/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#fff",
   "theme_color": "#000",
+  "scope": "/",
   "icons": [
     {
       "src": "assets/images/icon.png",
@@ -40,8 +41,7 @@
     }
   ],
   "share_target": {
-    "action": "/share-target/",
-    "method": "GET",
+    "action": "index.html",
     "params": {
       "title": "title",
       "text": "text",
