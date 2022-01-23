@@ -4,4 +4,10 @@ window.addEventListener('DOMContentLoaded', () => {
     console.log('Title shared: ' + parsedUrl.searchParams.get('title'));
     console.log('Text shared: ' + parsedUrl.searchParams.get('text'));
     console.log('URL shared: ' + parsedUrl.searchParams.get('url'));
+    document.getElementById("shareTarget").innerHTML = 'Title shared: ' + parsedUrl.searchParams.get('title')
+    + 'Text shared: ' + parsedUrl.searchParams.get('text') + 'URL shared: ' + parsedUrl.searchParams.get('url');
   });
+
+  function myFunction() {
+    // document.getElementById("shareTarget").innerHTML = "Some value";
+  }
