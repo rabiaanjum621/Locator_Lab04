@@ -24,14 +24,14 @@
       "name": "Open Messages",
       "short_name": "Messages",
       "description": "Open the app to your messages",
-      "url": "https://evanburg.github.io/pwa-boilerplate/messages",
+      "url": "https://goyalish.github.io/INFO-6128-Share-Target-Lab/messages",
       "icons": [{ "src": "assets/images/messages.png", "sizes": "192x192" }]
     },
     {
       "name": "Open Settings",
       "short_name": "Settings",
       "description": "Open the app to the settings",
-      "url": "https://evanburg.github.io/pwa-boilerplate/settings",
+      "url": "https://goyalish.github.io/INFO-6128-Share-Target-Lab/settings",
       "icons": [{ "src": "assets/images/settings.png", "sizes": "192x192" }]
     }
   ],
