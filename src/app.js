@@ -8,7 +8,4 @@ window.addEventListener('DOMContentLoaded', () => {
     + 'Text shared: ' + parsedUrl.searchParams.get('text') + 'URL shared: ' + parsedUrl.searchParams.get('url');
   });
 
-  function myFunction() {
-    // document.getElementById("shareTarget").innerHTML = "Some value";
-  }
 
