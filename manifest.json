@@ -36,7 +36,7 @@
     }
   ],
   "share_target": {
-    "action": "index.html",
+    "action": "https://goyalish.github.io/INFO-6128-Share-Target-Lab/index.html",
     "params": {
       "title": "title",
       "text": "text",
