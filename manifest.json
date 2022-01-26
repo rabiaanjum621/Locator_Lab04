@@ -37,6 +37,8 @@
   ],
   "share_target": {
     "action": "https://goyalish.github.io/INFO-6128-Share-Target-Lab/index.html",
+    "enctype": "multipart/form-data",
+    "method": "POST",
     "params": {
       "title": "title",
       "text": "text",
