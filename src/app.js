@@ -18,7 +18,8 @@ window.addEventListener('DOMContentLoaded', () => {
     if(url != null) {
       result += " " + url 
     }
-    document.getElementById("shareTarget").innerHTML = result;
+    if(result.length > 0)
+      document.getElementById("shareTarget").innerHTML = result;
   });
 
 
