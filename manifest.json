@@ -18,5 +18,13 @@
       "type": "image/png",
       "purpose": "maskable"
     }
+  ], "shortcuts": [
+    {
+      "name": "Open App",
+      "short_name": "Pokedex",
+      "description": "Open the app",
+      "url": "https://goyalish.github.io/pokedex/index.html",
+      "icons": [{ "src": "assets/images/messages.png", "sizes": "192x192" }]
+    }
   ]
 }
