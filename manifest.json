@@ -1,7 +1,7 @@
 {
   "name": "Pokedex",
   "short_name": "Pokedex",
-  "start_url": "https://goyalish.github.io/INFO-6128-Share-Target-Lab/",
+  "start_url": "https://goyalish.github.io/pokedex/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#aac8d4",
@@ -18,30 +18,5 @@
       "type": "image/png",
       "purpose": "maskable"
     }
-  ],
-  "shortcuts": [
-    {
-      "name": "Open Messages",
-      "short_name": "Messages",
-      "description": "Open the app to your messages",
-      "url": "https://goyalish.github.io/INFO-6128-Share-Target-Lab/messages",
-      "icons": [{ "src": "assets/images/messages.png", "sizes": "192x192" }]
-    },
-    {
-      "name": "Open Settings",
-      "short_name": "Settings",
-      "description": "Open the app to the settings",
-      "url": "https://goyalish.github.io/INFO-6128-Share-Target-Lab/settings",
-      "icons": [{ "src": "assets/images/settings.png", "sizes": "192x192" }]
-    }
-  ],
-  "share_target": {
-    "action": "https://goyalish.github.io/INFO-6128-Share-Target-Lab/index.html",
-    "method": "GET",
-    "params": {
-      "title": "title",
-      "text": "text",
-      "url": "url"
-    }
-  }
+  ]
 }
