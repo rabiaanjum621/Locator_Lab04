@@ -11,17 +11,50 @@
     <link rel="icon" type="image/png" href="assets/images/icon.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="assets/images/icon.png" sizes="16x16" />
     <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsenui.css" />
+    <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsen-css-components.min.css" />
     <link rel="stylesheet" type="text/css" href="src/app.css" />
+  
   </head>
 
-  <body">
-    <div class="container">
-      <h1>You are Online!</h1>
-      <p>It's time to create an amazing Progressive Web App!</p>
-      <p id="shareTarget">Shared content will be displayed here!!</p>
-    </div>
+  <body>
+    <ons-navigator id = "navigator" swipeable page="index.html"></ons-navigator>
+    <template id="index.html">
+      <ons-page id="home">
+        <ons-toolbar>
+          <div class="center">My Pokedex</div>
+        </ons-toolbar>
+
+        <ons-list id="pokemonList">
+          
+        </ons-list>
+      </ons-page>
+    </template>
+
+    <template id="details.html">
+      <ons-page id="details">
+        <ons-toolbar>
+          <div class="left"><ons-back-button>Back</ons-back-button></div>
+          <div id="tbTitle" class="center">Pokedex</div>
+        </ons-toolbar>
+
+        <ons-card>
+          <img id="imgPokemon" style="width: 30%"/>
+          <div id="pokemonTitle" class="title">Cool Lightning</div>
+          <ons-list-header>TYPES</ons-list-header>
+          <ons-list id="typesList">
+            
+          </ons-list>
+          <ons-list-header>STATS</ons-list-header>
+          <ons-list id="statsList">
+
+          </ons-list>
+        </ons-card>
+      </ons-page>
+    </template>
   </body>
 
+  <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
   <script src="src/app.js"></script>
 
   <script type="text/javascript">

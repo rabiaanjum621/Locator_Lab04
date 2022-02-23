@@ -1,6 +1,6 @@
 {
-  "name": "my-new-pwa",
-  "short_name": "my-new-pwa",
+  "name": "Pokedex",
+  "short_name": "Pokedex",
   "start_url": "https://goyalish.github.io/INFO-6128-Share-Target-Lab/",
   "display": "standalone",
   "orientation": "portrait",
