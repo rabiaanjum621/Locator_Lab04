@@ -1,7 +1,7 @@
 {
   "name": "Pokedex",
   "short_name": "Pokedex",
-  "start_url": "https://goyalish.github.io/pokedex/index.html",
+  "start_url": "https://goyalish.github.io/pokedex/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#aac8d4",
@@ -23,7 +23,7 @@
       "name": "Open App",
       "short_name": "Pokedex",
       "description": "Open the app",
-      "url": "https://goyalish.github.io/pokedex/index.html",
+      "url": "https://goyalish.github.io/pokedex/",
       "icons": [{ "src": "assets/images/messages.png", "sizes": "192x192" }]
     }
   ]
