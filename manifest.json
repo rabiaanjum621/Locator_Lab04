@@ -1,7 +1,7 @@
 {
   "name": "Pokedex",
   "short_name": "Pokedex",
-  "start_url": "https://goyalish.github.io/pokedex/index.html",
+  "start_url": "https://goyalish.github.io/pokedex/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#fff",
