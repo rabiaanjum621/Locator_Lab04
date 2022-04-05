@@ -1,7 +1,7 @@
 {
-  "name": "Pokedex",
-  "short_name": "Pokedex",
-  "start_url": "https://goyalish.github.io/pokedex/",
+  "name": "Rabia_Locator",
+  "short_name": "Locator",
+  "start_url": "https://rabiaanjum621.github.io/Locator_Lab04/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#fff",
@@ -44,19 +44,19 @@
       "name": "Open Messages",
       "short_name": "Messages",
       "description": "Open the app to your messages",
-      "url": "https://goyalish.github.io/pokedex/messages",
+      "url": "https://rabiaanjum621.github.io/Locator_Lab04/messages",
       "icons": [{ "src": "assets/images/messages.png", "sizes": "192x192" }]
     },
     {
       "name": "Open Settings",
       "short_name": "Settings",
       "description": "Open the app to the settings",
-      "url": "https://goyalish.github.io/pokedex/settings",
+      "url": "https://rabiaanjum621.github.io/Locator_Lab04/settings",
       "icons": [{ "src": "assets/images/settings.png", "sizes": "192x192" }]
     }
   ],
   "share_target": {
-    "action": "https://goyalish.github.io/pokedex/index.html",
+    "action": "https://rabiaanjum621.github.io/Locator_Lab04/index.html",
     "method": "GET",
     "params": {
       "title": "title",
